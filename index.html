@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanzamiento con Resortera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <canvas id="gameCanvas" aria-label="Juego de lanzamiento con resortera"></canvas>
+
+    <section class="top-bar" aria-label="Controles del juego">
+      <div class="controls">
+        <button id="baseBtn" type="button">Caso base</button>
+        <button id="resetShotBtn" type="button">Reiniciar lanzamiento</button>
+        <button id="resetLevelBtn" type="button">Reiniciar nivel</button>
+      </div>
+
+      <div class="score-board" aria-live="polite">
+        <span>Puntaje: <strong id="scoreValue">0</strong></span>
+        <span>Intentos: <strong id="attemptsValue">0</strong></span>
+      </div>
+    </section>
+
+    <p id="message" class="message" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
