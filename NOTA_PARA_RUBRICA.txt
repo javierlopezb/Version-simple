@@ -1,0 +1,7 @@
+NOTA PARA LA SUSTENTACIÓN
+
+El programa se simplificó para que la interfaz muestre solo lo necesario: velocidad inicial, ángulo, lanzar y reiniciar.
+
+Para validar el modelo, usa los archivos incluidos evidencia_validacion.png y reporte_validacion.txt. Allí se contrastan los valores manuales con los cálculos hechos en Python usando NumPy y Matplotlib.
+
+Puedes decir: "La interfaz permite modificar el vector velocidad mediante su magnitud y ángulo. Python calcula la trayectoria con la ecuación parabólica y, por separado, se validó el caso base comparando los resultados manuales con NumPy y Matplotlib."
